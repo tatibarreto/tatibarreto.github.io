@@ -66,6 +66,19 @@ a:hover {color: #FF4040;
 	margin-top: 0,5em;
 }
 
+.fundo-roxo2 {
+	background-color:#D8BFD8;
+	padding: 1em;
+	margin: 1em;
+	margin-top: 0,5em;
+}
+.fundo-azul2 {
+	background-color:#E6E6FA
+ ;
+	padding: 1em;
+	margin: 1em;
+	margin-top: 0,5em;
+}
 .trabalho {
 	color: #191970;
 	text-align: justify;
@@ -111,8 +124,7 @@ header p { display: inline-block;
 		   display: inline-block;
 		   padding: 20px;
 }
-.central{
-			text-align: center;
+.central{ text-align: center;
 }
 
 
@@ -150,6 +162,7 @@ footer {
 .grid2 {
 		display: grid;
 		grid-template-columns: 2fr 2fr;
+		grid-gap: 8px;
 		
 }
 
@@ -159,7 +172,7 @@ footer {
 
 .trampo {width: 300px;
 		padding-right: 20px;
-  border-radius: 50%;
+  		border-radius: 50%;
 }
 
 .trampo2 {width: 200px;
@@ -183,9 +196,39 @@ footer {
 .redondo3 { border-radius: 100px;
 			padding: 10%
 
+ }
+
+.redondo4 { border-radius: 100px;
+			padding: 5%
 
  }
 
+ .reco img { width: 1000px;
+			 height:200px;   
+			 		
+}
 
+.conteudo {
+	width:1000px;
+	height:405px;
+	border:10px solid #999;
+	background:#7FFFD4;
+	margin: 0 auto;
+
+	}
+
+.moldura-dois {
+	width: 1100px; 
+	border:8px inset #5f6632;
+	padding:150px;
+	background: #b1b1c3;
+	}
+
+.moldura-um {
+	width: 1150px; /*404+8+8(bordas)+15+15(paddings)*/
+	border:20px inset #5d738b;
+	padding:25px;
+	background:#DCDCDC;
+	}
 */
-			
+				
